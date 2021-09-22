@@ -1,25 +1,17 @@
 <template>
-  <ToDoList msg="ToDoListDemo"/>
+  <ToDoList msg="ToDoListDemo" />
 </template>
 
 <script>
-import ToDoList from './components/ToDoList.vue'
+import ToDoList from "./components/ToDoList.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    ToDoList
-  }
-}
+    ToDoList,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
