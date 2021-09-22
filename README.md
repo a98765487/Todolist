@@ -1,1 +1,2 @@
-# Todolist
+# npm install
+# npm run serve
